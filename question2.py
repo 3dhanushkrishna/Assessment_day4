@@ -1,0 +1,5 @@
+list = str(input("Enter the string: "))
+length = len(list)
+print(length)
+list_len = open("text.txt","w")
+list_len.write(str(length))
